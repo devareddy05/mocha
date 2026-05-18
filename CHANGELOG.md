@@ -1,5 +1,13 @@
 # Changelog
 
+## [12.0.0-beta-9.5](https://github.com/mochajs/mocha/compare/v12.0.0-beta-9.4...v12.0.0-beta-9.5) (2026-05-18)
+
+
+### 🩹 Fixes
+
+* lookupFiles() now returns string[] for direct file paths ([#5941](https://github.com/mochajs/mocha/issues/5941)) ([4718476](https://github.com/mochajs/mocha/commit/4718476be9727d8ce1c22be65d8f5cca5babc78b)), closes [#5940](https://github.com/mochajs/mocha/issues/5940)
+* prevent diff hang on large/complex objects ([#5898](https://github.com/mochajs/mocha/issues/5898)) ([6695fba](https://github.com/mochajs/mocha/commit/6695fba397a6d1ca2d7cd4de86d9dda2d3fba342))
+
 ## [12.0.0-beta-9.4](https://github.com/mochajs/mocha/compare/v12.0.0-beta-9.3...v12.0.0-beta-9.4) (2026-05-16)
 
 
